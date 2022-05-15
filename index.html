@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+  <main>
+
+    <!------------------------- navbar section stated ------------------------------------->
+
+    <header class="navbar">
+      <img class="logo" src="images/logo.svg" alt="">
+      <div class="navbar-text">
+        <div class="nav-list">
+          <ul class="nav-items-left">
+            <li>
+              <div class="feature-btn ">Features
+                <div class="arrow-section">
+                  <svg class="f-arrow drop-down-icon" name="down-arrow" width="10" height="6"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+                  </svg>
+                  <svg class="f-arrow close-up-icon" name="up-arrow" width="10" height="6"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4" />
+                  </svg>
+                </div>
+              </div>
+              <div class="featured-drop-down slide-in ">
+                <ul class="f-drop-down-list">
+                  <li class="f-drop-down-items"><img class="f-icon" src="images/icon-todo.svg" alt=""> <span>Todo
+                      list</span>
+                  </li>
+                  <li class="f-drop-down-items"><img class="f-icon" src="images/icon-calendar.svg" alt="">
+                    <span>Calender</span>
+                  </li>
+                  <li class="f-drop-down-items"><img class="f-icon" src="images/icon-reminders.svg"
+                      alt=""><span>reminders</span> </li>
+                  <li class="f-drop-down-items"><img class="f-icon" src="images/icon-planning.svg"
+                      alt=""><span>planning</span> </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="company-btn">Company
+                <div class="arrow-section">
+                  <svg class="f-arrow drop-down-icon" name="down-arrow" width="10" height="6"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4" />
+                  </svg>
+                  <svg class="f-arrow close-up-icon" name="up-arrow" width="10" height="6"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke="#686868" stroke-width="1.5" fill="none" d="m1 5 4-4 4 4" />
+                  </svg>
+                </div>
+              </div>
+              <div class="company-drop-down slide-in">
+                <ul>
+                  <li><a href="">History</a></li>
+                </ul>
+                <ul>
+                  <li><a href="">Our team</a></li>
+                </ul>
+                <ul>
+                  <li><a href="">Blog</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#"> About</a></li>
+          </ul>
+          <ul class="nav-items-right">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mobile-menu-btn">
+        <img class="nav-btn" name="menu-bar" src="images/icon-menu.svg" alt="">
+        <img class="nav-btn" name="close-menu" src="images/icon-close-menu.svg" alt="">
+      </div>
+    </header>
+
+    <!------------------------- main contnet section stated ------------------------------------->
+    <div id="hero">
+      <div class="hero-wrapper">
+        <img class="main-mob-img" src="images/image-hero-mobile.png" alt="">
+        <div class="main-text-area">
+          <div class="main-text-area-top">
+            <h1 class="hero-heading">Make remote work</h1>
+            <p class="here-para">
+              Get your team in sync, no matter your location. Streamline processes,
+              create team rituals, and watch productivity soar.
+            </p>
+            <a class="learn-more-btn" href=""> Learn more</a>
+          </div>
+          <div class="joined-with">
+            <img src="images/client-databiz.svg" alt="">
+            <img src="images/client-audiophile.svg" alt="">
+            <img src="images/client-meet.svg" alt="">
+            <img src="images/client-maker.svg" alt="">
+          </div>
+        </div>
+        <img class="main-desk-img" src="images/image-hero-desktop.png" alt="">
+
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
